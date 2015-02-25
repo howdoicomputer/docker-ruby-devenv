@@ -1,4 +1,4 @@
-FROM howdoicomputer/dev_env
+FROM howdoicomputer/devenv
 
 ENV HOME /home/dev
 
@@ -11,7 +11,6 @@ RUN apt-get update && \
   apt-get install -y \
   libssl-dev
 RUN apt-get clean
-RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 USER dev
 

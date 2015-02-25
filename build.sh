@@ -1,1 +1,1 @@
-docker build -t ruby-devenv .
+docker build -t howdoicomputer/ruby-devenv .
