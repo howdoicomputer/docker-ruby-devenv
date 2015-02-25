@@ -2,6 +2,9 @@ FROM howdoicomputer/dev_env
 
 ENV HOME /home/dev
 
+# Install prerequisites
+#
+# # #
 USER root
 
 RUN apt-get update && \
